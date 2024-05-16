@@ -1,3 +1,10 @@
+/***********************************************************************
+ * Universidad de las Fuerzas Armadas ESPE
+ * Descipcion del problema: Funcion lambda para calcular la densidad
+ * Autor:  Alexander Toapanta
+ * Fecha de creacion: 14/05/2024
+ * Fecha de modificacion: 
+ ***********************************************************************/
 #include <iostream>
 #include <conio.h>
 #include <functional>

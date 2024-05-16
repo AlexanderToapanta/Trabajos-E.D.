@@ -1,3 +1,10 @@
+/***********************************************************************
+ * Universidad de las Fuerzas Armadas ESPE
+ * Descipcion del problema: Funcion lambda para cambiar una temperatura de grados centigrados a kelvins
+ * Autor:  Alexander Toapanta
+ * Fecha de creacion: 13/05/2024
+ * Fecha de modificacion: 
+ ***********************************************************************/
 #include <iostream>
 #include <conio.h>
 #include <functional>
