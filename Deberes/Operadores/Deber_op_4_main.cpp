@@ -7,28 +7,9 @@
  * Fecha de modificacion: 
  ***********************************************************************/
 #include <iostream>
+#include "caja_metodos.cpp"
 using namespace std;
 
-class Caja{
-private:
-    double ancho, alto, profundidad;
-public:
-    Caja():ancho(0),alto(0),profundidad(0){}
-    Caja(double a,double h,double p):ancho(a),alto(h),profundidad(p){}
-
-    double volumen() const {
-        return ancho*alto*profundidad;
-    }
-
-    bool operator>(const Caja &c) const{
-        return volumen()>c.volumen();
-    }
-
-    void imprimir(){
-        cout<<"Caja: "<<ancho<<" cm "<<alto<<" cm "<<profundidad<<" cm"<<endl;
-
-    }
-};
 
 int main(){
     Caja c1(2,3,4),c2(1,2,6);

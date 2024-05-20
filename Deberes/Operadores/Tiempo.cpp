@@ -1,0 +1,94 @@
+/***********************************************************************
+ * Module:  Tiempo.cpp
+ * Author:  Usuario
+ * Modified: lunes, 20 de mayo de 2024 15:44:55
+ * Purpose: Implementation of the class Tiempo
+ ***********************************************************************/
+
+#include "Tiempo.h"
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Tiempo::getHora()
+// Purpose:    Implementation of Tiempo::getHora()
+// Return:     int
+////////////////////////////////////////////////////////////////////////
+
+int Tiempo::getHora(void)
+{
+   return hora;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Tiempo::setHora(int newHora)
+// Purpose:    Implementation of Tiempo::setHora()
+// Parameters:
+// - newHora
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Tiempo::setHora(int newHora)
+{
+   hora = newHora;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Tiempo::getMinutos()
+// Purpose:    Implementation of Tiempo::getMinutos()
+// Return:     int
+////////////////////////////////////////////////////////////////////////
+
+int Tiempo::getMinutos(void)
+{
+   return minutos;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Tiempo::setMinutos(int newMinutos)
+// Purpose:    Implementation of Tiempo::setMinutos()
+// Parameters:
+// - newMinutos
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Tiempo::setMinutos(int newMinutos)
+{
+   minutos = newMinutos;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Tiempo::Tiempo(int h, int m)
+// Purpose:    Implementation of Tiempo::Tiempo()
+// Parameters:
+// - h
+// - m
+// Return:     
+////////////////////////////////////////////////////////////////////////
+
+Tiempo::Tiempo(int h, int m)
+{
+   hora=h;
+   minutos=m;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Tiempo::~Tiempo()
+// Purpose:    Implementation of Tiempo::~Tiempo()
+// Return:     
+////////////////////////////////////////////////////////////////////////
+
+Tiempo::~Tiempo()
+{
+   // TODO : implement
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Tiempo::Tiempo()
+// Purpose:    Implementation of Tiempo::Tiempo()
+// Return:     
+////////////////////////////////////////////////////////////////////////
+
+Tiempo::Tiempo()
+{
+   hora=0;
+   minutos=0;
+}
