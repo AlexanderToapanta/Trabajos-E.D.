@@ -17,7 +17,10 @@ public:
    void setDenominador(int newDenominador);
    Radical(int num, int den);
    Radical();
-
+    int Suma_int(Radical ra1, Radical r2);
+    void Suma_void(Radical ra1, Radical r2);
+    float Suma_irra(Radical ra1, Radical r2);
+Radical Suam_ra(Radical ra1, Radical r2);
 protected:
 private:
    int numerador;
