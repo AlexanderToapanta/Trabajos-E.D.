@@ -5,6 +5,7 @@
         "iostream": "cpp",
         "array": "cpp",
         "ostream": "cpp",
-        "ios": "cpp"
+        "ios": "cpp",
+        "functional": "cpp"
     }
 }

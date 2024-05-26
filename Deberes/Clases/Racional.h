@@ -5,22 +5,28 @@
  * Purpose: Declaration of the class Radical
  ***********************************************************************/
 
-#if !defined(__Class_Diagram_1_Radical_h)
-#define __Class_Diagram_1_Radical_h
+#if !defined(__Class_Diagram_1_Racional_h)
+#define __Class_Diagram_1_Racional_h
 
-class Radical
+class Racional
 {
 public:
    int getNumerador(void);
    void setNumerador(int newNumerador);
    int getDenominador(void);
    void setDenominador(int newDenominador);
-   Radical(int num, int den);
-   Radical();
-    int Suma_int(Radical ra1, Radical r2);
-    void Suma_void(Radical ra1, Radical r2);
-    float Suma_irra(Radical ra1, Radical r2);
-Radical Suam_ra(Radical ra1, Radical r2);
+    Racional(int num, int den); 
+    Racional();
+    //funciones  del deber1
+    int Suma_int(Racional ra1, Racional r2);
+    void Suma_void(Racional ra1, Racional r2);
+    float Suma_irra(Racional ra1, Racional r2);
+Racional Suam_ra(Racional& ra1,  Racional& r2);
+//funciones del deber2
+ int Multiplicacion_int(Racional ra1, Racional r2);
+    void Multiplicacion_void(Racional ra1, Racional r2);
+    float Multiplicacion_irra(Racional ra1, Racional r2);
+Racional Multiplicacion_ra(Racional& ra1,  Racional& r2);
 protected:
 private:
    int numerador;

@@ -13,7 +13,7 @@
 // Return:     int
 ////////////////////////////////////////////////////////////////////////
 
-int Radical::getNumerador(void)
+int Racional::getNumerador(void)
 {
    return numerador;
 }
@@ -26,7 +26,7 @@ int Radical::getNumerador(void)
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Radical::setNumerador(int newNumerador)
+void Racional::setNumerador(int newNumerador)
 {
    numerador = newNumerador;
 }
@@ -37,7 +37,7 @@ void Radical::setNumerador(int newNumerador)
 // Return:     int
 ////////////////////////////////////////////////////////////////////////
 
-int Radical::getDenominador(void)
+int Racional::getDenominador(void)
 {
    return denominador;
 }
@@ -50,7 +50,7 @@ int Radical::getDenominador(void)
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Radical::setDenominador(int newDenominador)
+void Racional::setDenominador(int newDenominador)
 {
    denominador = newDenominador;
 }
@@ -64,7 +64,7 @@ void Radical::setDenominador(int newDenominador)
 // Return:     
 ////////////////////////////////////////////////////////////////////////
 
-Radical::Radical(int num, int den)
+Racional::Racional(int num, int den)
 {
    numerador = num;
    denominador = den;
@@ -76,7 +76,7 @@ Radical::Radical(int num, int den)
 // Return:     
 ////////////////////////////////////////////////////////////////////////
 
-Radical::Radical()
+Racional::Racional()
 {
    numerador=0;
    denominador=1;
