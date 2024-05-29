@@ -28,6 +28,7 @@ public:
   void LlenarMatriz(int** matriz, int c, int f);
    void imprimirMatriz(int** matriz, int c, int f);
    int potencia (int dato, int e);
+   int**  multiplicarMatrices(int** matrizA, int** matrizB, int c, int f);
 
 protected:
 private:

@@ -16,6 +16,7 @@ public:
   virtual void LlenarMatriz(int** matriz, int c, int f)=0;
    virtual void imprimirMatriz(int** matriz, int c, int f)=0;
    virtual int potencia (int dato, int exponente)=0;
+   virtual  int**  multiplicarMatrices(int** matrizA, int** matrizB, int c, int f);
 protected:
 private:
 
