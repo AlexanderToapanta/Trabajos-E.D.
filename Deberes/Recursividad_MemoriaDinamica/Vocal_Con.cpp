@@ -9,10 +9,7 @@ void IngresarString(T& f) {
 
 template <typename T>
 void SepararVocalesConsonantesRecursivo(const T& f, size_t index, string& vocales, string& consonantes, function<void()> imprimirResultado) {
-    if (index == f.size()) {
-        imprimirResultado();
-        return;
-    }
+
 
     auto clasificar = [&](char c) {
         if (isalpha(c)) {

@@ -8,10 +8,6 @@ void IngresarString(T& f) {
 
 template <typename T>
 void SepararNumerosLetrasRecursivo(const T& f, size_t index, string& numeros, string& letras, function<void()> imprimirResultado) {
-    if (index == f.size()) {
-        imprimirResultado();
-        return;
-    }
 
     auto clasificar = [&](char c) {
         if (isdigit(c)) {
