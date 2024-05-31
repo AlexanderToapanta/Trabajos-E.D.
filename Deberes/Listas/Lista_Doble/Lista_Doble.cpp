@@ -68,7 +68,7 @@ void Lista_Doble::Eliminar(int E, const std::string& N) {
 void Lista_Doble::Mostrar() const {
     Nodo* actual = cabeza;
     while (actual != nullptr) {
-        std::cout << "Edad: " << actual->getEdad() << ", Nombre: " << actual->getNombre() << " -> ";
+        std::cout << "Edad: " << actual->getEdad() << ", Nombre: " << actual->getNombre() << " -> <-";
         actual = actual->getSiguiente();
     }
     std::cout << "nullptr" << std::endl;
