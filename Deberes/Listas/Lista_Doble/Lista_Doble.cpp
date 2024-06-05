@@ -28,6 +28,7 @@ void Lista_Doble::Insertar(int E, const std::string& N) {
         nuevoNodo->setAnterior(cola);
         cola = nuevoNodo;
     }
+
 }
 
 void Lista_Doble::Buscar(int E, const std::string& N) const {
